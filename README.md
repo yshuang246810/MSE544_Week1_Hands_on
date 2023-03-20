@@ -56,7 +56,7 @@ Input `ping klone.hyak.uw.edu` to test
 
 And then use `control + C` to stop the ping
 
-<img src="./images/ping.png" style="height: 75%; width: 60%;"/>
+<img src="./image/ping.png" style="height: 75%; width: 60%;"/>
 
 ### Step 4: Connect to Hyak!
 
@@ -64,7 +64,7 @@ Input `ssh uwid@klone.hyak.uw.edu` to connect to Hyak
 
 your UW user id should replace USERID.
 
-<img src="./images/Hyak.png" style="height: 75%; width: 60%;"/>
+<img src="./image/Hyak.png" style="height: 75%; width: 60%;"/>
 
 ## The rest instructions can be either worked on hyak or local
 ## Task 3 Familiarize yourself with the command line.<a name="task3"></a>
@@ -89,7 +89,7 @@ your UW user id should replace USERID.
 
 cd (change directory), ls (list), pwd (print working directory), mkdir (create new directory), rm (remove), vi (open file with the vim editor)
 
-<img src="./images/Common_command_line.png" style="height: 75%; width: 60%;"/>
+<img src="./image/Common_command_line.png" style="height: 75%; width: 60%;"/>
 
 #### Additional resources:
 
