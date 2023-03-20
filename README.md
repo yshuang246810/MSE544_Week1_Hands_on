@@ -91,8 +91,6 @@ your UW user id should replace USERID.
 
 cd (change directory), ls (list), pwd (print working directory), mkdir (create new directory), rm (remove), vi (open file with the vim editor)
 
-<img src="./Images/Common_command.jpeg" style="height: 75%; width: 60%;"/>
-
 #### Additional resources:
 
 https://www.youtube.com/watch?v=5RTSlby-l9w&ab_channel=PercyGrunwaldfromTopTechSkills (video for WSL installation and access)
