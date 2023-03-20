@@ -77,8 +77,6 @@ your UW user id should replace USERID.
 #### Directories
 - At any given point, there is one folder on your computer the shell is "sitting inside of". This is the shell's `present working directory (pwd)`. You change the working directory with the `cd` command.
 
-<img src="./Images/PWD+CD.jpeg" style="height: 75%; width: 60%;"/>
-
 - Relative paths name a directory or file relative to the current working directory. They start with "." (the working directory), ".." (the parent of the working directory), or a file/folder name.
 
   Can keep using ../../../ to relocate to your parent directory.
@@ -90,6 +88,8 @@ your UW user id should replace USERID.
 #### Try to use some common commands:
 
 cd (change directory), ls (list), pwd (print working directory), mkdir (create new directory), rm (remove), vi (open file with the vim editor)
+
+<img src="./Images/PWD+CD.jpeg" style="height: 75%; width: 60%;"/>
 
 #### Additional resources:
 
