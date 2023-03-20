@@ -1,7 +1,5 @@
 # MSE544_Week1_Hands_on
 
-<img src="./Images/klone.jpeg" style="height: 75%; width: 60%;"/>
-
 ## Hands-on 1: Sign up for Hyak and Use some basic Command line
 
 Authors: Ting Cao & [Ziyu Zhang](https://github.com/Ilxxll)
@@ -44,7 +42,7 @@ Read the `wiki page for Hyak` and get familiar with Hyak setup.The wiki provides
 For windows user, you can read the webpage that help you use it:
 [https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
-Or you can use [Xshell](https://www.netsarang.com/en/free-for-home-school/), GitBash or PuTTY.
+Or you can use Xshell, GitBash or PuTTY.
 
 ### Step 2: Start becoming comfortable using these command line interfaces if you are not already.
 
