@@ -35,7 +35,7 @@ Read the `wiki page for Hyak` and get familiar with Hyak setup.The wiki provides
 - Click on the Finder icon in the Dock to open a Finder window.
 - Press `Command + F` to bring up the Finder search bar.
 - Type `Terminal` in the search bar and wait for the search results to appear.
-- Once the search results appear, locate the Terminal application and double-click on it to open it.
+- Once the search results appear, locate the Terminal application and click on it to open it.
 
 #### For windows user: You can use `Windows Terminal`
 
