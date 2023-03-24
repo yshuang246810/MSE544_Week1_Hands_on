@@ -67,27 +67,12 @@ your UW user id should replace USERID.
 <img src="./image/Hyak.png" style="height: 75%; width: 60%;"/>
 
 ## The rest instructions can be either worked on hyak or local
+
 ## Task 3 Familiarize yourself with the command line.<a name="task3"></a>
 
-#### Shells:
-- The terminal lets you enter commands that do things. It gives you a `command line`. For our purposes we can also call it a `shell`.
-- Those commands are actually little programs that get run. When you run "ls", that's a program called "ls" in the folder "/bin"
-- You can list a bunch of commands in a text file and tell the terminal to run it from top to bottom. This is called a `shell script`. A typical shell script starts with the header line #!/bin/bash
+Like with any new skill, using command line takes practice and persistence to become proficient. It can be daunting to start using the command line, but with practice and patience, you can become more comfortable and confident with this powerful tool.
 
-#### Directories
-- At any given point, there is one folder on your computer the shell is "sitting inside of". This is the shell's `present working directory (pwd)`. You change the working directory with the `cd` command.
-
-- Relative paths name a directory or file relative to the current working directory. They start with "." (the working directory), ".." (the parent of the working directory), or a file/folder name.
-
-  Can keep using ../../../ to relocate to your parent directory.
-  
-- Absolute paths start from the root of the drive. They're the same no matter what your working directory is. On windows they start with a drive letter (like "C:\"), and on Linux they start with a "/".
-  If you are on hyak: use your directory under gscratch instead of home directory. 
-  See difference: https://wiki.cac.washington.edu/display/hyakusers/Managing+your+Files#ManagingyourFiles-HomeDirectories
-
-#### Try to use some common commands:
-
-cd (change directory), ls (list), pwd (print working directory), mkdir (create new directory), rm (remove), vi (open file with the vim editor)
+One way to get started is to set aside some time to explore the command line and try out different commands and options. You can start with basic commands like: cd (change directory), ls (list), pwd (print working directory), mkdir (create new directory), rm (remove), vi (open file with the vim editor).
 
 <img src="./image/Common_command_line.png" style="height: 75%; width: 60%;"/>
 
