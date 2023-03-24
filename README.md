@@ -32,10 +32,14 @@ Read the `wiki page for Hyak` and get familiar with Hyak setup.The wiki provides
 
 #### For Mac user: you can use `Terminal`.
 
-- Click on the Finder icon in the Dock to open a Finder window.
-- Press `Command + F` to bring up the Finder search bar.
-- Type `Terminal` in the search bar and wait for the search results to appear.
-- Once the search results appear, locate the Terminal application and click on it to open it.
+You can use Spotlight Search to open Terminal:
+- Open Spotlight Search by pressing `Command + Space` on your keyboard.
+- Type 'Terminal' in the search bar and press enter. This will open the Terminal application.
+
+Or you can use Launchpad to open Terminal:
+- Click on the `Launchpad` icon in the Dock.
+- In the Launchpad screen, type `Terminal` in the search bar at the top of the screen.
+- Once you see the Terminal app icon, click on it to open the Terminal.
 
 #### For windows user: You can use `Windows Terminal`
 
