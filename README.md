@@ -21,9 +21,7 @@ Go to the Hyak Research Computing Club(RCC) getting-start Webpage: [https://dept
 
 Read the `wiki page for Hyak` and get familiar with Hyak setup.The wiki provides detailed information on how to access and use Hyak, including instructions on how to log in, set up software, run jobs, and manage data storage. It also includes troubleshooting tips and answers to common questions. Reading the wiki will help you gain a better understanding of how to effectively use Hyak for their research needs.
 
-[`Wiki page for Hyak`](https://wiki.cac.washington.edu/display/hyakusers/)
-
-[`Wiki page for lotin to Hyak`](https://wiki.cac.washington.edu/display/hyakusers/Logging+In)
+[`Wiki page for Hyak`](https://hyak.uw.edu/docs/)
 
 
 ## Task 2 Locate a terminal or SSH client on your computer.<a name="task2"></a>
