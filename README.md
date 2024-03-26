@@ -2,7 +2,7 @@
 
 ## Hands-on 1: Sign up for Hyak and Use some basic Command line
 
-Authors: Ting Cao & [Ziyu Zhang](https://github.com/Ilxxll)
+Authors: Ting Cao & [Ziyu Zhang](https://github.com/Ilxxll) & Kaichen Xie
 
 ### Table of Content
 
@@ -28,7 +28,7 @@ Read the `wiki page for Hyak` and get familiar with Hyak setup.The wiki provides
 
 ### Step 1: Set up your terminal
 
-#### For Mac user: you can use `Terminal`.
+#### For Mac users: You can use `Terminal`.
 
 You can use Spotlight Search to open Terminal:
 - Open Spotlight Search by pressing `Command + Space` on your keyboard.
@@ -39,9 +39,9 @@ Or you can use Launchpad to open Terminal:
 - In the Launchpad screen, type `Terminal` in the search bar at the top of the screen.
 - Once you see the Terminal app icon, click on it to open the Terminal.
 
-#### For windows user: You can use `Windows Terminal`
+#### For windows users: You can use `Windows Terminal`
 
-For windows user, you can read the webpage that help you use it:
+For windows users, you can read the webpage that help you use it:
 [https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
 Or you can use Xshell, GitBash or PuTTY.
@@ -106,13 +106,17 @@ cheatsheet of vim command: https://vimsheet.com/
 Once you are approved by STF, practice moving some files from your local computer to your scratch
 directory.
 
-For Mac user, here is the wiki page for you to know how to transfer the file: https://wiki.cac.washington.edu/display/hyakusers/Hyak+Mac+file+transfer 
+#### For Mac user: You can use `Terminal`. 
 
-For Windows user, here is the wiki page for you to know how to transfer the file:https://wiki.cac.washington.edu/display/hyakusers/Hyak+Windows+file+transfer 
+Input `scp $local_directory uwid@klone.hyak.uw.edu:$remote_directory` to transfer files from your local computer to a HYAK directory. 
 
-Here is the wiki page to guide you how to manage your file in Hyak: https://wiki.cac.washington.edu/display/hyakusers/Managing+your+Files
+Please be aware that $remote_directory should start with `/`. 
 
-Also, you can use some third-party software to transfer files like XShell, Putty, Filezilla, or any other client.
+#### For Windows user: You can use `Windows Terminal`.
+
+Similarly, input `scp $local_directory uwid@klone.hyak.uw.edu:$remote_directory` to transfer files from your local computer to a HYAK directory. 
+
+Also, you can use some third-party software to transfer files like XShell, WinSCP or any other client. 
 
 ## Assignment
 
