@@ -12,19 +12,16 @@ Authors: Ting Cao & [Ziyu Zhang](https://github.com/Ilxxll) & Kaichen Xie
 - [Task 4: Use Vi to create a file with 2-3 sentences about what the term ‘Big Data’ means to you.](#task4)
 - [Task 5: Familiarize yourself with file transfers.](#task5)
 
-## Task 1 Sign up for membership in the STF group.<a name="task1"></a>
+## Task 1 - Sign up for membership in the STF group.<a name="task1"></a>
 
 #### Step 1:
-Go to the Hyak Research Computing Club(RCC) getting-start Webpage: [https://depts.washington.edu/uwrcc/getting-started-2/getting-started/](https://depts.washington.edu/uwrcc/getting-started-2/getting-started/) and follow the instruction to finish the sign-up.
+Go to the Hyak Research Computing Club(RCC) getting-start Webpage: [https://depts.washington.edu/uwrcc/hyak_access/](https://depts.washington.edu/uwrcc/hyak_access/) and follow the instruction to finish the sign-up.
 
 #### Step 2:
 
-Read the `wiki page for Hyak` and get familiar with Hyak setup.The wiki provides detailed information on how to access and use Hyak, including instructions on how to log in, set up software, run jobs, and manage data storage. It also includes troubleshooting tips and answers to common questions. Reading the wiki will help you gain a better understanding of how to effectively use Hyak for their research needs.
+Read the [`Wiki page for Hyak`](https://hyak.uw.edu/docs/) and get familiar with Hyak setup. The wiki provides detailed information on how to access and use Hyak, including instructions on how to log in, set up software, run jobs, and manage data storage. It also includes troubleshooting tips and answers to common questions. Reading the wiki will help you gain a better understanding of how to effectively use Hyak for your research needs.
 
-[`Wiki page for Hyak`](https://hyak.uw.edu/docs/)
-
-
-## Task 2 Locate a terminal or SSH client on your computer.<a name="task2"></a>
+## Task 2 - Locate a terminal or SSH client on your computer.<a name="task2"></a>
 
 ### Step 1: Set up your terminal
 
@@ -34,17 +31,10 @@ You can use Spotlight Search to open Terminal:
 - Open Spotlight Search by pressing `Command + Space` on your keyboard.
 - Type 'Terminal' in the search bar and press enter. This will open the Terminal application.
 
-Or you can use Launchpad to open Terminal:
-- Click on the `Launchpad` icon in the Dock.
-- In the Launchpad screen, type `Terminal` in the search bar at the top of the screen.
-- Once you see the Terminal app icon, click on it to open the Terminal.
-
 #### For windows users: You can use `Windows Terminal`
 
-For windows users, you can read the webpage that help you use it:
-[https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+For windows users, you can open a Windows Powershell command by hitting the Windows key, typing `Powershell` and pressing `Enter`. 
 
-Or you can use Xshell, GitBash or PuTTY.
 
 ### Step 2: Start becoming comfortable using these command line interfaces if you are not already.
 
@@ -54,7 +44,7 @@ Like with any new skill, using command line interfaces (CLIs) takes practice and
 
 ### Step 3: Test connection with Hyak:
 
-Input `ping klone.hyak.uw.edu` to test 
+In your terminal window, input `ping klone.hyak.uw.edu` to test 
 
 And then use `control + C` to stop the ping
 
