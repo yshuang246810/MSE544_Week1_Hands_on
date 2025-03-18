@@ -121,10 +121,10 @@ scp uwid@klone.hyak.uw.edu:/path/to/your_directory/output.txt /path/to/local_dir
 
 ---
 
-## **For Windows Users: Using Windows Terminal**
+#### **For Windows Users: Using Windows Terminal**
 The `scp` command works the same way in **Windows Terminal**, **PowerShell**, or **Git Bash**.
 
-### **Transferring a file from your local computer to HYAK:**
+##### **Transferring a file from your local computer to HYAK:**
 ```powershell
 scp C:\path\to\local_file uwid@klone.hyak.uw.edu:/path/to/your_directory/
 ```
@@ -137,7 +137,7 @@ scp C:\path\to\local_file uwid@klone.hyak.uw.edu:/path/to/your_directory/
     ```
     This will copy `myscript.py` from your local machine to your directory in HYAK.
 
-### **Transferring a file from HYAK back to your local computer:**
+##### **Transferring a file from HYAK back to your local computer:**
 After transferring files to HYAK, practice copying a file back to your local machine.  
 For example, if you generated a file `output.txt` on HYAK, use:
 ```powershell
@@ -147,7 +147,7 @@ scp uwid@klone.hyak.uw.edu:/path/to/your_directory/output.txt C:\path\to\local_d
 
 ---
 
-## **Alternative: Using GUI Tools (Windows)**
+#### **Alternative: Using GUI Tools (Windows)**
 If you prefer a graphical interface, you can use:
 - **WinSCP** (https://winscp.net/)
 - **XShell** (https://www.netsarang.com/en/xshell/)
