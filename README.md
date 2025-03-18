@@ -102,6 +102,31 @@ Input `scp $local_directory uwid@klone.hyak.uw.edu:$remote_directory` to transfe
 
 Please be aware that $remote_directory should start with `/`. 
 
+## **For Mac Users: Using Terminal**
+You can use the `scp` (secure copy) command in Terminal to transfer files.  
+
+### **Transferring a file from your local computer to HYAK:**
+```bash
+scp /path/to/local_file uwid@klone.hyak.uw.edu:/gscratch/your_group/your_directory/
+```
+- **Replace `/path/to/local_file`** with the actual path of the file you want to transfer.
+- **Replace `uwid`** with your UW NetID.
+- **Replace `/gscratch/your_group/your_directory/`** with your **remote directory** on HYAK.  
+  - For example:  
+    ```bash
+    scp myscript.py uwid@klone.hyak.uw.edu:/gscratch/mylab/myfolder/
+    ```
+    This will copy `myscript.py` from your local machine to the `myfolder` directory in your HYAK scratch space.
+
+### **Transferring a file from HYAK back to your local computer:**
+After transferring files to HYAK, practice copying a file back to your local machine.  
+For example, if you generated a file `output.txt` on HYAK, use:
+```bash
+scp uwid@klone.hyak.uw.edu:/gscratch/mylab/myfolder/output.txt /path/to/local_directory/
+```
+- **Replace `/path/to/local_directory/`** with the actual folder on your local machine where you want to store the file.
+
+
 #### For Windows user: You can use `Windows Terminal`.
 
 Similarly, input `scp $local_directory uwid@klone.hyak.uw.edu:$remote_directory` to transfer files from your local computer to a HYAK directory. 
