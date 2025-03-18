@@ -122,36 +122,23 @@ scp uwid@klone.hyak.uw.edu:/path/to/your_directory/output.txt /path/to/local_dir
 ---
 
 #### **For Windows Users: Using Windows Terminal**
-The `scp` command works the same way in **Windows Terminal**, **PowerShell**, or **Git Bash**.
-
-##### **Transferring a file from your local computer to HYAK:**
-```powershell
-scp C:\path\to\local_file uwid@klone.hyak.uw.edu:/path/to/your_directory/
+The `scp` command works the same way.
+```bash
+scp /path/to/local_file uwid@klone.hyak.uw.edu:/path/to/your_directory/
 ```
-- **Replace `C:\path\to\local_file`** with the actual path of the file you want to transfer.
-- **Replace `uwid`** with your UW NetID.
-- **Replace `/path/to/your_directory/`** with your **directory** on HYAK.  
-  - For example:  
-    ```powershell
-    scp C:\Users\YourName\Documents\myscript.py uwid@klone.hyak.uw.edu:/path/to/your_directory/
-    ```
-    This will copy `myscript.py` from your local machine to your directory in HYAK.
 
-##### **Transferring a file from HYAK back to your local computer:**
-After transferring files to HYAK, practice copying a file back to your local machine.  
-For example, if you generated a file `output.txt` on HYAK, use:
-```powershell
-scp uwid@klone.hyak.uw.edu:/path/to/your_directory/output.txt C:\path\to\local_directory\
+```bash
+scp uwid@klone.hyak.uw.edu:/path/to/hyak_file /path/to/local_directory/
 ```
-- **Replace `C:\path\to\local_directory\`** with the actual folder on your local machine where you want to store the file.
 
 ---
 
-#### **Alternative: Using GUI Tools (Windows)**
+#### **Alternative: Using GUI Tools (Windows and Mac)**
 If you prefer a graphical interface, you can use:
-- **WinSCP** (https://winscp.net/)
+- **FileZilla** (https://filezilla-project.org/download.php?type=client)
+- **termius** (https://termius.com/download/)
+- **WinSCP** (https://winscp.net/) ! Only for Windows
 - **XShell** (https://www.netsarang.com/en/xshell/)
-- **FileZilla** (https://filezilla-project.org/)
 
 These tools allow you to drag and drop files between your local computer and HYAK.
 
