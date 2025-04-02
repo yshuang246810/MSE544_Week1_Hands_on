@@ -98,15 +98,51 @@ directory.
 
 #### For Mac user: You can use `Terminal`. 
 
-Input `scp $local_directory uwid@klone.hyak.uw.edu:$remote_directory` to transfer files from your local computer to a HYAK directory. 
+##### **Transferring a file from your local computer to HYAK:**
+```bash
+scp /path/to/local_file uwid@klone.hyak.uw.edu:/path/to/your_directory/
+```
+- **Replace `/path/to/local_file`** with the actual path of the file you want to transfer.
+- **Replace `uwid`** with your UW NetID.
+- **Replace `/path/to/your_directory/`** with your **directory** on HYAK.  
+  - For example:  
+    ```bash
+    scp myscript.py uwid@klone.hyak.uw.edu:/path/to/your_directory/
+    ```
+    This will copy `myscript.py` from your local machine to the your directory in HYAK.
 
-Please be aware that $remote_directory should start with `/`. 
+##### **Transferring a file from HYAK back to your local computer:**
+After transferring files to HYAK, practice copying a file back to your local machine.  
+For example, if you generated a file `output.txt` on HYAK, use:
+```bash
+scp uwid@klone.hyak.uw.edu:/path/to/your_directory/output.txt /path/to/local_directory/
+```
+- **Replace `/path/to/local_directory/`** with the actual folder on your local machine where you want to store the file.
 
-#### For Windows user: You can use `Windows Terminal`.
+---
 
-Similarly, input `scp $local_directory uwid@klone.hyak.uw.edu:$remote_directory` to transfer files from your local computer to a HYAK directory. 
+#### **For Windows Users: Using Windows Terminal**
+The `scp` command works the same way.
+```bash
+scp /path/to/local_file uwid@klone.hyak.uw.edu:/path/to/your_directory/
+```
 
-Also, you can use some third-party software to transfer files like XShell, WinSCP or any other client. 
+```bash
+scp uwid@klone.hyak.uw.edu:/path/to/hyak_file /path/to/local_directory/
+```
+
+---
+
+#### **Alternative: Using GUI Tools (Windows and Mac)**
+If you prefer a graphical interface, you can use:
+- **FileZilla** (https://filezilla-project.org/download.php?type=client)
+- **termius** (https://termius.com/download/)
+- **WinSCP** (https://winscp.net/) ! Only for Windows
+- **XShell** (https://www.netsarang.com/en/xshell/)
+
+These tools allow you to drag and drop files between your local computer and HYAK.
+
+---
 
 ## Assignment
 
