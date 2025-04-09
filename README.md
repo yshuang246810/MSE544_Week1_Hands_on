@@ -113,7 +113,7 @@ scp /path/to/local_file uwid@klone.hyak.uw.edu:/path/to/your_directory/
 
 ##### **Transferring a file from HYAK back to your local computer:**
 After transferring files to HYAK, practice copying a file back to your local machine.  
-For example, if you generated a file `output.txt` on HYAK, use:
+For example, if you generated a file `output.txt` on HYAK, log out from HYAK first and then use:
 ```bash
 scp uwid@klone.hyak.uw.edu:/path/to/your_directory/output.txt /path/to/local_directory/
 ```
